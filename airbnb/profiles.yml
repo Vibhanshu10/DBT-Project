@@ -1,0 +1,13 @@
+airbnb:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: hmpnyis-by97134
+      user: Admin # Make sure this matches your Snowflake username
+      password: 9027149351@Vib
+      role: TRANSFORM
+      database: AIRBNB
+      warehouse: COMPUTE_WH
+      schema: DEV
+      threads: 1
